@@ -6,6 +6,10 @@ set matchpairs+=<:>	"Moving between two matching characters using % key. Default
 set cursorline
 set ruler		"Sets on bottom right corner an indicator of pointer location - row number and character number within selected line. Also shows a percentage.
 
+" === COLOR === "
+"changing the color of comments from dark blue to light blue, when using the default colorscheme
+set background=dark
+
 " === SEARCH === "
 set incsearch		"Starts searching while typing
 set hlsearch		"Hiighlight search results
