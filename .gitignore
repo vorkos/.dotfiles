@@ -3,3 +3,10 @@
 *.iml
 out/
 classes/
+
+# build tools files
+.gradle/
+.mvn/
+
+# java compiled files
+target/
