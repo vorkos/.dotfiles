@@ -5,6 +5,7 @@ set number		"Set row numbers on the left
 set matchpairs+=<:>	"Moving between two matching characters using % key. Defaults: (..), {..}, [..]
 set cursorline
 set ruler		"Sets on bottom right corner an indicator of pointer location - row number and character number within selected line. Also shows a percentage.
+set scrolloff=3		"Number of lines between cursor and top/bottom of the page
 
 " === COLOR === "
 "changing the color of comments from dark blue to light blue, when using the default colorscheme
