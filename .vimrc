@@ -32,3 +32,11 @@ set wildmode=list:longest,full
 "<CTRL-V>{motion}A{text}	Appends {text} after block on every line
 "<CTRL-V>{motion}c{text}	Changes every line of block to {text}
 "<CTRL-V>{motion}r{char}	Changes every character of block to {char}
+
+" vim-plug https://github.com/junegunn/vim-plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
