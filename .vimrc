@@ -15,6 +15,11 @@ set background=dark
 set incsearch		"Starts searching while typing
 set hlsearch		"Hiighlight search results
 set ignorecase		"Ignores case of search results
+nnoremap <C-l> :nohlsearch<CR><C-l>	"Ctrl-l to clear search result highlights
+
+"Turn off highlighting when in insert mode
+autocmd InsertEnter * :setlocal nohlsearch
+autocmd InsertLeave * :setlocal hlsearch
 
 " === COMPLETION === "
 "Completions list the possibilities and also fill in the longest common prefix
