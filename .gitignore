@@ -7,6 +7,8 @@ classes/
 # build tools files
 .gradle/
 .mvn/
+mvnw
+mvnw.cmd
 
 # java compiled files
 target/
