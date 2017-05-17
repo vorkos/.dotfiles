@@ -25,6 +25,10 @@ autocmd InsertLeave * :setlocal hlsearch
 "Completions list the possibilities and also fill in the longest common prefix
 set wildmode=list:longest,full
 
+" tabs
+set expandtab
+set tabstop=4
+
 " === HINTS & SHORTCUTS === "
 
 " --- yank --- "
