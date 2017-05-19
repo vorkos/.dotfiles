@@ -1,9 +1,14 @@
-# .dotfiles for Vim, tmux, bash, git
-I'm using this set of .dotfiles primarily now for working with application log files and XMLs while working in support for enterprise Java application.
 # Cheat sheet
 List of commands that are used ocassionaly
 ## tmux
-Sycronize input on all panes in current window. Type tmux `prefix` then a colon and the following command to turn this feature on or off 
-```
-setw synchronize-panes
-```
+| Command                     | Description| 
+| ----------------------------|------------| 
+| `setw synchronize-panes`|Sycronize input on all panes in current window|
+## vim
+|Command        |Description|
+|---------------|-----------|
+|`:%s/foo/bar/g`|Find each occurrence of 'foo' (in all lines), and replace it with 'bar'|
+## git
+| Command               | Description| 
+| ----------------------|------------| 
+| `git remote -v update`|Check if local branches are up to date with remote branches|
