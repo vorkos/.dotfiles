@@ -13,3 +13,4 @@ List of commands that are used ocassionaly
 | Command               | Description| 
 | ----------------------|------------| 
 | `git remote -v update`|Check if local branches are up to date with remote branches|
+|`git status -uno`      |Check if local branch is ahead or behind. Should be run after above command|
