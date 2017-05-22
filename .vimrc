@@ -29,6 +29,10 @@ set wildmode=list:longest,full
 set expandtab
 set tabstop=4
 
+" persisten undo
+set undofile
+set undodir=$HOME/.vim/undo
+
 " === HINTS & SHORTCUTS === "
 
 " --- yank --- "
