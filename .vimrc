@@ -33,6 +33,9 @@ set tabstop=4
 set undofile
 set undodir=$HOME/.vim/undo
 
+" yank to system clipboard
+set clipboard=unnamed
+
 " === HINTS & SHORTCUTS === "
 
 " --- yank --- "
