@@ -35,6 +35,10 @@ export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; histor
 alias la='ls -ahl'
 alias ll='ls -hl'
 
+# vim as a default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/vplagov/.sdkman"
 [[ -s "/home/vplagov/.sdkman/bin/sdkman-init.sh" ]] && source "/home/vplagov/.sdkman/bin/sdkman-init.sh"
