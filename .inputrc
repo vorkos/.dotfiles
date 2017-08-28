@@ -1,1 +1,5 @@
 set completion-ignore-case on
+
+# ctrl + right/left arrow keys to move between words
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
