@@ -9,6 +9,7 @@ classes/
 .mvn/
 mvnw
 mvnw.cmd
+build/
 
 # java compiled files
 target/
