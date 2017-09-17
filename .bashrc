@@ -13,22 +13,23 @@ if [ -f `which powerline-daemon` ]; then
   . /usr/share/powerline/bash/powerline.sh
 fi
 
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
-
 # Unlimited history
 HISTSIZE=-1
 HISTFILESIZE=-1
 
 # Preserve bash history in multiple terminal windows
+# ************************************************** 
+#
 # Avoid duplicates
-export HISTCONTROL=ignoredups
-
+export HISTCONTROL=ignoredups:erasedups
+#
 # When the shell exits, append to the history file instead of overwriting it
 shopt -s histappend
-
+#
 # After each command, append to the history file and reread it
-export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
+#
+# ************************************************** 
 
 # aliases
 alias la='ls -ahl'
