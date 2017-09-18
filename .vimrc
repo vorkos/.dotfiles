@@ -38,9 +38,12 @@ autocmd InsertLeave * :setlocal hlsearch
 " completions list the possibilities and also fill in the longest common prefix
 set wildmode=list:longest,full
 
-" tabs
+" tabs and autoindent
 set expandtab
+set shiftwidth=4
+set softtabstop=4
 set tabstop=4
+set autoindent
 
 " persisten undo
 set undofile
