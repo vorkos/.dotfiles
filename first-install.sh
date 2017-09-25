@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rm ~/.bashrc ~/.vimrc ~/.tmux.conf ~/.inputrc ~/.gitconfig
+rm -f ~/.bashrc ~/.vimrc ~/.tmux.conf ~/.inputrc ~/.gitconfig
 
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
