@@ -10,3 +10,8 @@
     le = log --oneline --decorate
     st = status
     ch = checkout
+    d = difftool
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
