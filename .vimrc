@@ -2,7 +2,6 @@ set nocompatible    " disable backwards compatibility with vi
 syntax on
 syntax enable
 set matchpairs+=<:>	" moving between two matching characters using % key. Defaults: (..), {..}, [..]
-set cursorline
 
 " line numbers
 set number

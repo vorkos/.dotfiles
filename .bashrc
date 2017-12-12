@@ -33,6 +33,12 @@ PROMPT_COMMAND="history -n; history -w; history -c; history -r; $PROMPT_COMMAND"
 alias la='ls -ahl'
 alias ll='ls -hl'
 
+# create a directory and cd into it
+mkcd(){
+    mkdir -p "$1" &&
+    cd "$1"
+}
+
 # vim as a default editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
