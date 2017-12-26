@@ -10,6 +10,16 @@ classes/
 mvnw
 mvnw.cmd
 build/
+.project/
+.settings/
+bin/
+.project
+tmp/
+libs/
 
 # java compiled files
 target/
+.classpath
+
+# visual studio code
+.vscode/
