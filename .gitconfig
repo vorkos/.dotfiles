@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /home/vplagov/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [user]
 	email = vitalii.plagov@gmail.com
 	name = Vitalii Plagov
