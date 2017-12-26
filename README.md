@@ -1,5 +1,5 @@
 # Cheat sheet
-List of commands that are used ocassionaly
+Short list of useful commands
 ## tmux
 | Command                 | Description| 
 | ------------------------|------------| 
