@@ -2,7 +2,7 @@
 	excludesfile = ~/.gitignore
 	autocrlf = true
 [user]
-	email = vitalii.plagov@extenda.com
+	email = vitalii.plagov@gmail.com
 	name = Vitalii Plagov
 [alias]
     ls = log --pretty=format:%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn] --decorate --date=short --graph
