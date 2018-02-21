@@ -1,6 +1,7 @@
 [core]
 	excludesfile = ~/.gitignore
-	autocrlf = true
+	autocrlf = false
+    filemode = false
 [user]
 	email = vitalii.plagov@gmail.com
 	name = Vitalii Plagov
