@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#testing gpg
 rm -f ~/.bashrc ~/.vimrc ~/.tmux.conf ~/.inputrc ~/.gitconfig
 
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
