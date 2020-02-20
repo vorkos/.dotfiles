@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-#dummy commit
 rm -f ~/.bashrc ~/.vimrc ~/.tmux.conf ~/.inputrc ~/.gitconfig
 
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
